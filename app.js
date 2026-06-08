@@ -12,7 +12,7 @@ const methodOverride= require("method-override")
 
  const dbUrl = process.env.ATLASDB_URL;
 const dns = require("node:dns/promises"); dns.setServers(["1.1.1.1", "1.0.0.1"]);
-const ejsMate = require("ejs-Mate")
+const ejsMate = require("ejs-mate")
 const ExpressError= require("./utils/ExpressError")    
 const session= require("express-session")
 const MongoStore = require("connect-mongo")
