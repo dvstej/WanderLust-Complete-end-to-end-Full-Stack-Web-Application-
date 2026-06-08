@@ -97,7 +97,7 @@ app.use((req,res,next)=>{
 // })
 
 app.get("/",(req,res)=>{
-  res.redirect("/signin")
+  res.redirect("/signup")
 })
 
 //middleware to route files
