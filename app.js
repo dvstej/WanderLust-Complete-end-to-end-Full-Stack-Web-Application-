@@ -96,9 +96,9 @@ app.use((req,res,next)=>{
 //    res.send(registeredUser)
 // })
 
-// app.get("/",(req,res)=>{
-//     res.send("hi im root")
-// })
+app.get("/",(req,res)=>{
+  res.redirect("/signin")
+})
 
 //middleware to route files
 app.use("/listings",listingRouter)
